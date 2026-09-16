@@ -3,29 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Converter</title>
+    <title>StudyFlow - Smart Learning Platform</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>Temperature Converter</h1>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Study<span>Flow</span></div>
 
-        <input type="number" id="temperature" placeholder="Enter temperature">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <select id="unit">
-            <option value="celsius">Celsius</option>
-            <option value="fahrenheit">Fahrenheit</option>
-            <option value="kelvin">Kelvin</option>
-        </select>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
 
-        <button onclick="convertTemperature()">Convert</button>
+        <div class="hero-content">
+            <p class="tagline">SMARTER LEARNING. BETTER RESULTS.</p>
 
-        <div id="result"></div>
-    </div>
+            <h1>
+                Learn Smarter,
+                <span>Achieve More.</span>
+            </h1>
 
-    <script src="script.js"></script>
+            <p class="hero-text">
+                StudyFlow is a modern learning platform designed
+                to help students organize their studies, manage
+                their time and reach their academic goals.
+            </p>
+
+            <a href="#features" class="btn">Get Started</a>
+        </div>
+
+        <div class="hero-card">
+            <div class="card-icon">📚</div>
+            <h3>Smart Learning</h3>
+            <p>Everything you need for a better study experience.</p>
+        </div>
+
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+
+        <div class="section-heading">
+            <p>WHY STUDYFLOW?</p>
+            <h2>Everything You Need to Learn Better</h2>
+        </div>
+
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <div class="icon">📅</div>
+                <h3>Study Planning</h3>
+                <p>
+                    Organize your subjects and create a simple
+                    study routine that works for you.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">⏱️</div>
+                <h3>Time Management</h3>
+                <p>
+                    Manage your study time efficiently and
+                    stay focused on your important tasks.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🎯</div>
+                <h3>Track Your Goals</h3>
+                <p>
+                    Set academic goals and monitor your progress
+                    throughout your learning journey.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div class="about-content">
+
+            <p class="small-title">ABOUT STUDYFLOW</p>
+
+            <h2>Make Your Learning Journey Simple</h2>
+
+            <p>
+                Studying becomes easier when everything is organized.
+                StudyFlow brings planning, productivity and learning
+                together in one simple platform.
+            </p>
+
+            <p>
+                Whether you are preparing for exams, completing
+                assignments or learning new skills, StudyFlow helps
+                you stay organized and focused.
+            </p>
+
+        </div>
+
+        <div class="about-box">
+            <h3>Learn</h3>
+            <h3>Plan</h3>
+            <h3>Focus</h3>
+            <h3>Achieve</h3>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <p class="small-title">GET IN TOUCH</p>
+
+        <h2>Ready to Study Smarter?</h2>
+
+        <p>
+            Start organizing your learning journey today.
+        </p>
+
+        <a href="mailto:hello@studyflow.com" class="btn">
+            Contact Us
+        </a>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">Study<span>Flow</span></div>
+
+        <p>
+            © 2026 StudyFlow. Designed for smarter learning.
+        </p>
+
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </footer>
 
 </body>
 </html>
